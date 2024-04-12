@@ -1,32 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isaac Saffran | Software Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-  <canvas id="matrixCanvas"></canvas>
-  <div id="content-wrap">
-    <header>
-      <h1 id="title"></h1>
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="socials.html">Socials</a></li>
+  <header>
+    <h1>Isaac Saffran</h1>
+    <h2>Software Developer</h2>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Ambitious Software Development student with a strong problem-solving inclination and teamwork skills. Currently
+        pursuing a Diploma in Software Development, bolstered by additional side projects in building AI-powered
+        applications. Eager to leverage academic knowledge and project-based experience in a diverse IT role.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bash</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Database Management (Oracle, SQLplus, SQLite)</li>
+            <li>Version Control (Git, GitHub)</li>
+            <li>Frameworks (Flask, Node.js, React)</li>
+            <li>Operating Systems (Linux, Windows, MacOS)</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>AI & Tools</h3>
+          <ul>
+            <li>GPT-4, Langchain, BingAI</li>
+            <li>Copilot, Perplexity AI</li>
+            <li>Command Line</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Team Collaboration</li>
+            <li>Problem Solving</li>
+            <li>Communication</li>
+            <li>Computer Networking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Software Work Experience</h2>
+      <div class="experience-entry">
+        <h3>ALGOBuild Information Technology Internship Program</h3>
+        <p>July 2023 - September 2023</p>
+        <ul>
+          <li>Cross-functional Team Collaboration</li>
+          <li>Client Outreach and Market Research</li>
+          <li>Data Analysis and Reporting</li>
+          <li>Emerging Trends Research</li>
+          <li>Service Development Initiative</li>
         </ul>
-      </nav>
-    </header>
-    <main id="content">
-      <!-- content will be filled by JavaScript -->
-    </main>
-    <footer>
-      <!-- footer info goes here -->
-    </footer>
-  </div>
-  <script src="script.js"></script>
+      </div>
+      <!-- Add more work experiences here -->
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-gallery">
+        <div class="project">
+          <img src="images/Master_Chief_And_Cortana.jpg" alt="Project 1">
+          <h3>Project 1: MasterChiefGPT and CortanaGPT Discussions</h3>
+          <p>GPTvsGPT: Halo Edition is an engaging Python application that simulates a conversation between two AI
+            assistants, each embodying the unique personalities of Master Chief and Cortana from the Halo series. This
+            playful program harnesses the power of OpenAI's Assistant API to create an intriguing dialogue, bringing the
+            distinctive characteristics of these iconic characters to life. The conversation unfolds around a specified
+            topic, showcasing how each assistant's traits influence their responses. This project is a creative
+            exploration of AI capabilities in simulating character-based interactions. Discover more about OpenAI's
+            Assistant API here.</p>
+        </div>
+        <!-- Add more project entries here -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Calgary, AB | saffy127@outlook.com | +1 587 999 7320 | <a href="https://github.com/Saffy127">GitHub</a></p>
+      <div class="social-links">
+        <a href="https://github.com/Saffy127"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/isaac-saffran-1bb06b259"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Isaac Saffran</p>
+  </footer>
 </body>
 
 </html>
-`
